@@ -1,1 +1,18 @@
- ?>
+<html lang="en">
+    <head>
+        hasil input:
+    </head>
+    <body >
+        <title >selamat datang</title>
+        <script>
+            confirm("ingin mengisi nama ?")
+            if (true) {
+                var nama = prompt ("isi nama kamu", nama);
+          document.write("welcome =" + nama);
+            } else {
+                document.write("terimakasih");
+            }
+
+        </script>
+    </body>
+</html>
